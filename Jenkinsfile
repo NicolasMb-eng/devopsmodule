@@ -7,7 +7,7 @@ pipeline {
         stage('Git Checkout') {
             steps {
                 script {
-                    git branch: 'main', url: 'https://github.com/NicolasMb-eng/devopsmodule.git'
+                    git branch: 'master', url: 'https://github.com/NicolasMb-eng/devopsmodule.git'
                 }
             }
         }
